@@ -4,6 +4,7 @@ class SumSquareDifference
   attr_reader :difference
 
   def initialize(limit)
+    @limit = limit
     @difference = difference
   end
 
