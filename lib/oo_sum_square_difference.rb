@@ -7,4 +7,16 @@ class SumSquareDifference
     @difference = difference
   end
 
+  def difference
+
+  end
+
+  def sum_square(range)
+    range.map{|n| n * n}.reduce(0, :+)
+  end
+
+  def square_sum(range)
+    range.to_a.reduce(0, :+) ** 2
+  end
+
 end
