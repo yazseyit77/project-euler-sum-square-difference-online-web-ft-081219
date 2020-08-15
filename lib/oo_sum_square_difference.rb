@@ -8,7 +8,7 @@ class SumSquareDifference
   end
 
   def difference
-
+    range = (1..@limit)
   end
 
   def sum_square(range)
